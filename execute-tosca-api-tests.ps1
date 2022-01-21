@@ -1,3 +1,4 @@
+$ErrorActionPreference = "SilentlyContinue"
 $ToscaCommanderHome = [System.Environment]::GetEnvironmentVariable('COMMANDER_HOME')
 
 $ToscaCIClientExe = $ToscaCommanderHome + '\ToscaCI\Client\ToscaCIClient.exe'
