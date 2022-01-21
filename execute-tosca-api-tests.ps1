@@ -2,9 +2,9 @@ $ToscaCommanderHome = [System.Environment]::GetEnvironmentVariable('COMMANDER_HO
 
 $ToscaCIClientExe = $ToscaCommanderHome + '\ToscaCI\Client\ToscaCIClient.exe'
 
-$m = 'distributed'
+$m = 'local'
 $t = 'junit'
-$r = '"C:\Tosca_Projects\ToscaCIResults\Results.xml"'
-$c = '"C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\ToscaCI\Client\Config1.xml"'
+$r = '"C:\Tricentis\Automation\ToscaCI\ToscaCIResults\Results.xml"'
+$c = '"C:\Tricentis\Automation\ToscaCI\ConfigAPI.xml"'
 
 & $ToscaCIClientExe -m $m -c $c -t $t -r $r
