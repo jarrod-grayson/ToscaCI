@@ -33,4 +33,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Submit Tosca Execution Results to qTest
         uses: actions/checkout@v2
-      - run: .\submit-tosca-execution-results-to-qtest.ps1
+      - run: .\GitHub_Action_submit-tosca-execution-results-to-qtest.ps1
