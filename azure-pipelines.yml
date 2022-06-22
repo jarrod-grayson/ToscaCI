@@ -20,6 +20,6 @@ steps:
     arguments: >
       -toscaServerUrl "http://192.168.222.132:5012/"
       -events '["3a02539f-f9e8-856c-4a85-6dc1060d65e3"]'
-      -projectName "NEW_DEX_WS"
+      -projectName "DEX_User"
       -creator "AOS API"
       -debug "true"
