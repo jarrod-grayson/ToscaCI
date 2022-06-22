@@ -16,7 +16,7 @@ steps:
   inputs:
     targetType: 'filePath'
     #filePath: $(System.DefaultWorkingDirectory)\tests\run-tosca-test.ps1
-    filePath: "C:/temp/AOSTest.ps1"
+    filePath: "C:/temp/tosca_execution_client.ps1"
     arguments: >
       -toscaServerUrl "http://192.168.222.132:5012/"
       -events '["3a02539f-f9e8-856c-4a85-6dc1060d65e3"]'
